@@ -1,0 +1,141 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "860px",
+      "wideSize": "1200px"
+    },
+    "color": {
+      "custom": false,
+      "customGradient": false,
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "palette": [
+        { "name": "Base", "slug": "base", "color": "#ffffff" },
+        { "name": "Base Two", "slug": "base-two", "color": "#f8f9fa" },
+        { "name": "Contrast", "slug": "contrast", "color": "#1a1a2e" },
+        { "name": "Contrast Two", "slug": "contrast-two", "color": "#4a5568" },
+        { "name": "Primary", "slug": "primary", "color": "#1a56db" },
+        { "name": "Secondary", "slug": "secondary", "color": "#0ea5e9" },
+        { "name": "Accent", "slug": "accent", "color": "#7c3aed" }
+      ]
+    },
+    "typography": {
+      "customFontSize": false,
+      "dropCap": false,
+      "fontFamilies": [
+        {
+          "name": "Inter",
+          "slug": "inter",
+          "fontFamily": "'Inter', sans-serif"
+        },
+        {
+          "name": "Space Grotesk",
+          "slug": "space-grotesk",
+          "fontFamily": "'Space Grotesk', sans-serif"
+        },
+        {
+          "name": "Playfair Display",
+          "slug": "playfair-display",
+          "fontFamily": "'Playfair Display', serif"
+        },
+        {
+          "name": "Lato",
+          "slug": "lato",
+          "fontFamily": "'Lato', sans-serif"
+        }
+      ],
+      "fontSizes": [
+        { "name": "Small", "slug": "small", "size": "0.875rem" },
+        { "name": "Medium", "slug": "medium", "size": "1rem" },
+        { "name": "Large", "slug": "large", "size": "1.25rem" },
+        { "name": "X-Large", "slug": "x-large", "size": "1.75rem" },
+        { "name": "XX-Large", "slug": "xx-large", "size": "2.5rem" },
+        { "name": "Huge", "slug": "huge", "size": "3.5rem" }
+      ]
+    },
+    "spacing": {
+      "customSpacingSize": false,
+      "units": ["px", "rem", "em", "vh", "vw", "%"],
+      "spacingSizes": [
+        { "name": "X-Small", "slug": "x-small", "size": "0.5rem" },
+        { "name": "Small", "slug": "small", "size": "1rem" },
+        { "name": "Medium", "slug": "medium", "size": "2rem" },
+        { "name": "Large", "slug": "large", "size": "3rem" },
+        { "name": "X-Large", "slug": "x-large", "size": "4rem" },
+        { "name": "XX-Large", "slug": "xx-large", "size": "6rem" }
+      ]
+    },
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var(--wp--preset--color--base)",
+      "text": "var(--wp--preset--color--contrast)"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--inter)",
+      "fontSize": "var(--wp--preset--font-size--medium)",
+      "lineHeight": "1.7"
+    },
+    "spacing": {
+      "blockGap": "var(--wp--preset--spacing--medium)"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--inter)",
+          "fontWeight": "700",
+          "lineHeight": "1.2"
+        }
+      },
+      "h1": {
+        "typography": { "fontSize": "var(--wp--preset--font-size--huge)" }
+      },
+      "h2": {
+        "typography": { "fontSize": "var(--wp--preset--font-size--xx-large)" }
+      },
+      "h3": {
+        "typography": { "fontSize": "var(--wp--preset--font-size--x-large)" }
+      },
+      "link": {
+        "color": { "text": "var(--wp--preset--color--primary)" },
+        ":hover": { "color": { "text": "var(--wp--preset--color--secondary)" } }
+      },
+      "button": {
+        "color": {
+          "background": "var(--wp--preset--color--primary)",
+          "text": "var(--wp--preset--color--base)"
+        },
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--inter)",
+          "fontWeight": "600",
+          "fontSize": "var(--wp--preset--font-size--medium)"
+        },
+        "spacing": {
+          "padding": {
+            "top": "0.75rem",
+            "bottom": "0.75rem",
+            "left": "1.75rem",
+            "right": "1.75rem"
+          }
+        },
+        "border": { "radius": "6px" }
+      }
+    }
+  },
+  "templateParts": [
+    { "name": "header", "title": "Header", "area": "header" },
+    { "name": "footer", "title": "Footer", "area": "footer" }
+  ],
+  "customTemplates": [
+    { "name": "front-page", "title": "Front Page", "postTypes": ["page"] }
+  ]
+}
