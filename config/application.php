@@ -159,7 +159,13 @@ Config::define('CONCATENATE_SCRIPTS', false);
 /**
  * Multisite
  */
-define('WP_ALLOW_MULTISITE', true);
+Config::define('WP_ALLOW_MULTISITE', true);
+Config::define('MULTISITE', true);
+Config::define('SUBDOMAIN_INSTALL', false);
+Config::define('DOMAIN_CURRENT_SITE', env('DOMAIN_CURRENT_SITE') ?: 'localhost:8080');
+Config::define('PATH_CURRENT_SITE', '/');
+Config::define('SITE_ID_CURRENT_SITE', 1);
+Config::define('BLOG_ID_CURRENT_SITE', 1);
 
 /**
  * Debugging Settings
