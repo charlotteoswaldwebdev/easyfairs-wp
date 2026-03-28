@@ -157,6 +157,11 @@ Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?? true);
 Config::define('CONCATENATE_SCRIPTS', false);
 
 /**
+ * Multisite
+ */
+define('WP_ALLOW_MULTISITE', true);
+
+/**
  * Debugging Settings
  */
 Config::define('WP_DEBUG_DISPLAY', false);
