@@ -1,0 +1,12 @@
+<!-- wp:group {"tagName":"footer","backgroundColor":"contrast","textColor":"base","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"layout":{"type":"constrained"}} -->
+<footer class="wp-block-group has-contrast-background-color has-base-color has-background has-text-color">
+  <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","alignItems":"center"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"}}}} -->
+  <div class="wp-block-group">
+    <!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontWeight":"700"}},"textColor":"base"} /-->
+    <!-- wp:paragraph {"textColor":"base","style":{"typography":{"fontSize":"0.875rem"}}} -->
+    <p class="has-base-color has-text-color">© 2025 Easyfairs. All rights reserved.</p>
+    <!-- /wp:paragraph -->
+  </div>
+  <!-- /wp:group -->
+</footer>
+<!-- /wp:group -->
