@@ -29,6 +29,7 @@ auth.json
 phpunit.xml
 .phpunit.result.cache
 .phpunit.cache
+/tests/wp-tests-config.php
 
 # WP-CLI
 wp-cli.local.yml
