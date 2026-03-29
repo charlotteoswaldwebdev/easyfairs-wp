@@ -2,8 +2,8 @@
 
 namespace Tests;
 
-use WP_UnitTestCase;
+use PHPUnit\Framework\TestCase as BaseTestCase;
 
-abstract class TestCase extends WP_UnitTestCase {
+abstract class TestCase extends BaseTestCase {
     // Shared setup for all tests goes here
 }

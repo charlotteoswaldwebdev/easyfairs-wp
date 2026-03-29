@@ -17,7 +17,14 @@
     }
   ],
   "keywords": [
-    "bedrock", "composer", "roots", "wordpress-composer", "wordpress", "wp-composer", "wp-config", "wp"
+    "bedrock",
+    "composer",
+    "roots",
+    "wordpress-composer",
+    "wordpress",
+    "wp-composer",
+    "wp-config",
+    "wp"
   ],
   "support": {
     "issues": "https://github.com/roots/bedrock/issues",
@@ -49,7 +56,6 @@
   "require-dev": {
     "laravel/pint": "^1.27",
     "pestphp/pest": "^4.0",
-    "phpunit/phpunit": "^12.5",
     "wp-phpunit/wp-phpunit": "^6.9",
     "yoast/phpunit-polyfills": "^4.0"
   },
@@ -83,5 +89,10 @@
     "lint": "pint --test",
     "lint:fix": "pint",
     "test": "pest"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
   }
 }
