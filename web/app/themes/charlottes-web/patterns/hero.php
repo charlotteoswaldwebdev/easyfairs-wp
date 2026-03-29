@@ -11,8 +11,8 @@
 <div class="wp-block-cover alignfull is-dark hero-section" style="min-height:600px;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)">
   <span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-70 has-background-dim"></span>
   <div class="wp-block-cover__inner-container">
-    <!-- wp:group {"layout":{"type":"constrained","contentSize":"800px"},"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}}} -->
-    <div class="wp-block-cover__inner-container">
+    <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|medium"}},"layout":{"type":"constrained","contentSize":"800px"}} -->
+    <div class="wp-block-group">
 
       <!-- wp:heading {"level":1,"textAlign":"center","textColor":"base","fontSize":"large"} -->
       <h1 class="wp-block-heading has-text-align-center has-base-color has-text-color has-large-font-size">Welcome to the Future of Events</h1>

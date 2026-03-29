@@ -100,6 +100,7 @@ function easyfairs_allowed_blocks( $allowed_blocks, $editor_context ): array {
         // Interactive
         'core/buttons',
         'core/button',
+        'core/shortcode',
 
         // Patterns and reusable blocks
         'core/pattern',
