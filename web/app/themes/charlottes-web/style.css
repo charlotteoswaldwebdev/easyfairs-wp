@@ -11,3 +11,8 @@ License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: charlottes-web
 */
+
+/* We don't want margin-top for any hero section, this can be handled on a case by case basis */
+.wp-site-blocks > .hero-section:first-of-type {
+  margin-block-start: 0;
+}

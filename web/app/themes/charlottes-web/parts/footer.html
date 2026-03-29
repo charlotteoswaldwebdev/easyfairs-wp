@@ -1,14 +1,18 @@
-<!-- wp:group {"tagName":"footer","backgroundColor":"contrast","textColor":"base","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"footer","backgroundColor":"base","textColor":"contrast","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"layout":{"type":"constrained"}} -->
 <footer
-  class="wp-block-group has-contrast-background-color has-base-color has-background has-text-color"
->
-  <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","alignItems":"center"},"style":{"spacing":{"padding":{"left":"var:preset|spacing|medium","right":"var:preset|spacing|medium"}}}} -->
+  class="wp-block-group has-base-background-color has-contrast-color has-background has-text-color"
+  style="
+    padding-top: var(--wp--preset--spacing--large);
+    padding-bottom: var(--wp--preset--spacing--large);
+  ">
+  <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","alignItems":"center"}} -->
   <div class="wp-block-group">
-    <!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontWeight":"700"}},"textColor":"base"} /-->
-    <!-- wp:paragraph {"textColor":"base","style":{"typography":{"fontSize":"0.875rem"}}} -->
-    <p class="has-base-color has-text-color">
-      © 2025 Easyfairs. All rights reserved.
-    </p>
+    <!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontWeight":"700"}},"textColor":"contrast"} /-->
+
+    <!-- wp:paragraph {"textColor":"contrast","style":{"typography":{"fontSize":"0.875rem"}}} -->
+    <p class="has-contrast-color has-text-color" style="font-size: 0.875rem"
+      >© 2025 Charlotte's Web. All rights reserved.</p
+    >
     <!-- /wp:paragraph -->
   </div>
   <!-- /wp:group -->

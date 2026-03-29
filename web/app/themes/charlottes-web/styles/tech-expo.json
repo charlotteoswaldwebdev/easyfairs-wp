@@ -9,7 +9,7 @@
         { "name": "Base Two", "slug": "base-two", "color": "#111827" },
         { "name": "Contrast", "slug": "contrast", "color": "#F1F5F9" },
         { "name": "Contrast Two", "slug": "contrast-two", "color": "#94A3B8" },
-        { "name": "Primary", "slug": "primary", "color": "#00D4FF" },
+        { "name": "Primary", "slug": "primary", "color": "#5ee6ff" },
         { "name": "Secondary", "slug": "secondary", "color": "#7C3AED" },
         { "name": "Accent", "slug": "accent", "color": "#06B6D4" }
       ]
@@ -20,22 +20,16 @@
       "background": "var(--wp--preset--color--base)",
       "text": "var(--wp--preset--color--contrast)"
     },
-    "typography": {
-      "fontFamily": "var(--wp--preset--font-family--inter)"
-    },
+    "typography": { "fontFamily": "var(--wp--preset--font-family--inter)" },
     "elements": {
       "heading": {
         "typography": {
           "fontFamily": "var(--wp--preset--font-family--space-grotesk)",
           "fontWeight": "700"
         },
-        "color": {
-          "text": "var(--wp--preset--color--primary)"
-        }
-      },
-      "link": {
         "color": { "text": "var(--wp--preset--color--primary)" }
       },
+      "link": { "color": { "text": "var(--wp--preset--color--primary)" } },
       "button": {
         "color": {
           "background": "var(--wp--preset--color--primary)",

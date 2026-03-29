@@ -1,8 +1,13 @@
 <!-- wp:template-part {"slug":"header","tagName":"header","area":"header"} /-->
 
-<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"tagName":"main"} -->
 <main class="wp-block-group">
-  <!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}}} /-->
+  <!-- wp:group {"layout":{"type":"constrained"}} -->
+  <div
+    class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+    <!-- wp:post-title {"level":1,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|medium"}}}} /-->
+  </div>
+  <!-- /wp:group -->
   <!-- wp:post-content {"layout":{"type":"constrained"}} /-->
 </main>
 <!-- /wp:group -->

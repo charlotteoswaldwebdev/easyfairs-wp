@@ -24,7 +24,7 @@ declare(strict_types=1);
  *  - Playfair Display → heading font for Food Summit variation
  *  - Lato            → body font for Food Summit variation
  */
-function easyfairs_enqueue_fonts(): void {
+function easyfairs_enqueue_fonts_and_styles(): void {
     $font_url = 'https://fonts.googleapis.com/css2'
         . '?family=Inter:wght@400;500;600;700'
         . '&family=Space+Grotesk:wght@400;500;600;700'
@@ -38,9 +38,15 @@ function easyfairs_enqueue_fonts(): void {
         [],
         null
     );
+    wp_enqueue_style(
+        'charlottes-web-custom',
+        get_stylesheet_uri(),
+        [],
+        wp_get_theme()->get('Version')
+    );
 }
-add_action('wp_enqueue_scripts', 'easyfairs_enqueue_fonts');
-add_action('enqueue_block_editor_assets', 'easyfairs_enqueue_fonts');
+add_action('wp_enqueue_scripts', 'easyfairs_enqueue_fonts_and_styles');
+add_action('enqueue_block_editor_assets', 'easyfairs_enqueue_fonts_and_styles');
 
 /**
  * Register the Easyfairs pattern category so all platform patterns
