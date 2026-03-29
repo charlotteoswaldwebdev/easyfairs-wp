@@ -48,7 +48,10 @@
   },
   "require-dev": {
     "laravel/pint": "^1.27",
-    "pestphp/pest": "^4.0"
+    "pestphp/pest": "^4.0",
+    "phpunit/phpunit": "^12.5",
+    "wp-phpunit/wp-phpunit": "^6.9",
+    "yoast/phpunit-polyfills": "^4.0"
   },
   "config": {
     "optimize-autoloader": true,
