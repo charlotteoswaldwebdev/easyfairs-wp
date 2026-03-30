@@ -1,0 +1,32 @@
+.ef-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wp--preset--spacing--md, 1.5rem);
+}
+
+.ef-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+.ef-field label {
+  font-weight: 600;
+  font-size: var(--wp--preset--font-size--small, 0.875rem);
+}
+
+.ef-field input,
+.ef-field textarea {
+  border: 1px solid currentColor;
+  padding: 0.625rem 0.75rem;
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+}
+
+.ef-form-success {
+  color: green;
+}
+.ef-form-error {
+  color: red;
+}
