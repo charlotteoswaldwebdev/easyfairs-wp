@@ -223,6 +223,8 @@ Platform-level concerns live in mu-plugins rather than the theme: `contact-form`
 
 ## Testing (PHPUnit)
 
+To run a test, use `docker compose exec wordpress vendor/bin/pest`
+
 _Framework: Pest running on top of PHPUnit_
 
 **Test 1: ContactFormTest.php**
