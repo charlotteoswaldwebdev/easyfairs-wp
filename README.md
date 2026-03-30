@@ -104,31 +104,13 @@ cp .env.example .env
 
 Open `.env` and set your values. The defaults will work for local development without changes.
 
-### 3. Add local hostnames
-
-Add the following line to your `/etc/hosts` file:
-
-**On macOS / Linux** — open with:
-
-```bash
-sudo nano /etc/hosts
-```
-
-**On Windows** — open `C:\Windows\System32\drivers\etc\hosts` as Administrator.
-
-Add this line:
-
-```
-127.0.0.1   easyfairs.local techexpo.easyfairs.local foodsummit.easyfairs.local
-```
-
-### 4. Install PHP dependencies
+### 3. Install PHP dependencies
 
 ```bash
 composer install
 ```
 
-### 5. Start the Docker environment
+### 4. Start the Docker environment
 
 ```bash
 docker compose up -d
